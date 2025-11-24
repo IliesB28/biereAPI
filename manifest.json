@@ -1,7 +1,7 @@
 {
   "name": "La Terre de la Bière",
   "short_name": "Beer List",
-  "description": "Application de gestion et recherche de bières",
+  "description": "Application de gestion et recherche de bières avec stockage hors ligne",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#667eea",
@@ -19,6 +19,32 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Rechercher une bière",
+      "short_name": "Rechercher",
+      "description": "Rechercher rapidement une bière",
+      "url": "/index.html?action=search",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Ajouter une bière",
+      "short_name": "Ajouter",
+      "description": "Ajouter une nouvelle bière à la collection",
+      "url": "/index.html?action=add",
+      "icons": [
+        {
+          "src": "icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
